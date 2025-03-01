@@ -1,0 +1,5 @@
+gradio
+pandas
+requests
+sqlite3
+python-dotenv
