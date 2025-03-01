@@ -17,7 +17,7 @@ def initialize_database():
     conn.commit()
     return conn
 
-def load_data_to_db(conn, csv_path='data/cxr_reports.csv'):
+def load_data_to_db(conn, csv_path='data/Syn_Radiology_Reports_Dataset.csv'):
     df = pd.read_csv(csv_path)
     df.to_sql('reports', conn, if_exists='replace', index=False)
     print("Data loaded successfully.")

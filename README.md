@@ -13,7 +13,7 @@ This project implements a **Retrieve-Augment-Generate (RAG)** framework for summ
 ├── database_setup.py    # Initializes SQLite and loads data
 ├── radiology_report_rag.py  # Main Gradio app for querying & summarization
 ├── data/
-│   ├── cxr_reports.csv   # Dataset (ensure it's added)
+│   ├── Syn_Radiology_Reports_Dataset.csv   # Synthetic Dataset 
 ├── requirements.txt    # Python dependencies
 ├── .env   # Store Hugging Face API Key securely
 ├── README.md   # Project documentation
@@ -22,7 +22,7 @@ This project implements a **Retrieve-Augment-Generate (RAG)** framework for summ
 ## 🔧 Setup & Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/radiology-report-rag.git
+   git clone https://github.com/AmulyaVeldandi/radiology-report-summarization.git
    cd radiology-report-rag
    ```
 2. **Install dependencies:**
@@ -36,7 +36,7 @@ This project implements a **Retrieve-Augment-Generate (RAG)** framework for summ
 
 ## 🌟 Running the App
 ```bash
-python radiology_report_rag.py
+python app.py
 ```
 By default, the app runs on `http://127.0.0.1:7860/`.
 
