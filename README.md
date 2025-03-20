@@ -2,6 +2,9 @@
 
 This project implements a **Retrieve-Augment-Generate (RAG)** framework for summarizing radiology reports using **Gradio** for UI and **SQLite** for data management.
 
+## 🖼️ Interface Preview
+![Radiology Report Summarization](GUI_gradio.jpeg)
+
 ## 🚀 Features
 - **Database & LLM Integration**: Uses SQLite and LM Studio/Ollama for local inference.
 - **RAG Framework**: Retrieves relevant reports, enhances context, and generates summaries.
